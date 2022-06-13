@@ -1,0 +1,37 @@
+.mainContentContainer {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+}
+
+.background {
+    width: 100%;
+    height: 450px;
+    object-fit: fill;
+
+}
+
+.crowdfund {
+    position: relative;
+    top: -100%;
+    color: white;
+    left: -600px;
+}
+
+.lists {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    left: 80%;
+    top: -110%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.list:hover {
+    font-size: 19px;
+}
